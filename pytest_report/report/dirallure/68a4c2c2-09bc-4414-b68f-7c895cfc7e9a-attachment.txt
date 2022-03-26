@@ -1,0 +1,36 @@
+2021-04-13 16:20:10 keyword_action.py[line:53] INFO 启动浏览器
+2021-04-13 16:20:12 keyword_action.py[line:114] INFO 打开测试地址:http://10.60.44.245:7170/newmbs
+2021-04-13 16:20:19 keyword_action.py[line:159] INFO 柜员：mindy登录成功！
+2021-04-13 16:20:19 Test57_NeiBuZiJinChi.py[line:41] INFO 开始测试内部资金池功能
+2021-04-13 16:20:21 Test57_NeiBuZiJinChi.py[line:7406] INFO 测试内部资金池--项目资金管理--项目初期设置
+Traceback (most recent call last):
+  File "E:\ATS\ter_Oracle\Test57_NeiBuZiJinChi.py", line 7421, in test_trade
+    implici_wait("xpath", "//span[contains(text(),'操作成功！')]")
+  File "E:\ATS\Action\keyword_action.py", line 401, in implici_wait
+    raise e
+  File "E:\ATS\Action\keyword_action.py", line 399, in implici_wait
+    getElement(driver, locator_method, locator_exp)
+  File "E:\ATS\Action\find.py", line 14, in getElement
+    raise err
+  File "E:\ATS\Action\find.py", line 11, in getElement
+    (lambda x: x.find_element(by=locationType, value = locatorExpression))
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2021-04-13 16:21:24 Test57_NeiBuZiJinChi.py[line:7436] DEBUG 内部账户计息失败！Traceback (most recent call last):
+  File "E:\ATS\ter_Oracle\Test57_NeiBuZiJinChi.py", line 7421, in test_trade
+    implici_wait("xpath", "//span[contains(text(),'操作成功！')]")
+  File "E:\ATS\Action\keyword_action.py", line 401, in implici_wait
+    raise e
+  File "E:\ATS\Action\keyword_action.py", line 399, in implici_wait
+    getElement(driver, locator_method, locator_exp)
+  File "E:\ATS\Action\find.py", line 14, in getElement
+    raise err
+  File "E:\ATS\Action\find.py", line 11, in getElement
+    (lambda x: x.find_element(by=locationType, value = locatorExpression))
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+

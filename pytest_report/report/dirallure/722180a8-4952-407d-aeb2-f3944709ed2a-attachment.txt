@@ -1,0 +1,10 @@
+2021-02-22 20:50:04 keyword_action.py[line:52] INFO 启动浏览器
+2021-02-22 20:50:10 keyword_action.py[line:115] INFO 打开测试地址:http://10.60.44.222:7170/newmbs
+2021-02-22 20:50:22 keyword_action.py[line:160] INFO 柜员：mindy登录成功！
+2021-02-22 20:50:22 Test04_ZiJinJieSuan.py[line:45] INFO 开始测试资金结算管理的页面功能
+2021-02-22 20:50:23 Test04_ZiJinJieSuan.py[line:1295] INFO 开始测试交易类型功能
+2021-02-22 20:51:16 Test04_ZiJinJieSuan.py[line:1491] INFO 交易类型，操作成功!
+2021-02-22 20:51:18 Test04_ZiJinJieSuan.py[line:1516] INFO 开始测试作废原因功能
+2021-02-22 20:51:43 Test04_ZiJinJieSuan.py[line:1638] INFO 作废原因，操作成功!
+2021-02-22 20:51:46 Test04_ZiJinJieSuan.py[line:1663] INFO 开始测试退票原因功能
+2021-02-22 20:52:06 Test04_ZiJinJieSuan.py[line:1766] INFO 退票原因，操作成功!

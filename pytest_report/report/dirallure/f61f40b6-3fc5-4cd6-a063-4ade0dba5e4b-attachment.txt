@@ -1,0 +1,46 @@
+INFO     root:keyword_action.py:52 启动浏览器
+INFO     root:keyword_action.py:115 打开测试地址:http://10.60.44.222:7170/newmbs
+INFO     root:keyword_action.py:160 柜员：mindy登录成功！
+INFO     root:Test01_ZhangHuZiJinJianKong.py:46 开始测试账户资金监控的页面功能
+INFO     root:Test01_ZhangHuZiJinJianKong.py:3944 开始测试离线账户维护功能
+INFO     root:Test01_ZhangHuZiJinJianKong.py:3956 开始测试离线账户维护功能
+DEBUG    root:Test01_ZhangHuZiJinJianKong.py:4559 离线账户维护,失败！Traceback (most recent call last):
+  File "E:\ATS\ter_Oracle\Test01_ZhangHuZiJinJianKong.py", line 4264, in test_trade
+    click("xpath", "//span[text()='余额重新生成']")
+  File "E:\ATS\Action\keyword_action.py", line 197, in click
+    raise  e
+  File "E:\ATS\Action\keyword_action.py", line 194, in click
+    element =  getElement(driver,locator_method,locator_exp)
+  File "E:\ATS\Action\find.py", line 14, in getElement
+    raise err
+  File "E:\ATS\Action\find.py", line 11, in getElement
+    (lambda x: x.find_element(by=locationType, value = locatorExpression))
+  File "C:\Python3.7.2\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+DEBUG    root:Test01_ZhangHuZiJinJianKong.py:4636 修改系统参数,失败！Traceback (most recent call last):
+  File "E:\ATS\ter_Oracle\Test01_ZhangHuZiJinJianKong.py", line 4570, in test_trade
+    click("xpath", "//div[@class='sysconfigset']")
+  File "E:\ATS\Action\keyword_action.py", line 197, in click
+    raise  e
+  File "E:\ATS\Action\keyword_action.py", line 194, in click
+    element =  getElement(driver,locator_method,locator_exp)
+  File "E:\ATS\Action\find.py", line 14, in getElement
+    raise err
+  File "E:\ATS\Action\find.py", line 11, in getElement
+    (lambda x: x.find_element(by=locationType, value = locatorExpression))
+  File "C:\Python3.7.2\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "E:\ATS\Action\find.py", line 11, in <lambda>
+    (lambda x: x.find_element(by=locationType, value = locatorExpression))
+  File "C:\Python3.7.2\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Python3.7.2\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python3.7.2\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=75.0.3770.90)

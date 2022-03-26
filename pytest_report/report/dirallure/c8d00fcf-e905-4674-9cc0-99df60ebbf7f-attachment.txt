@@ -1,0 +1,60 @@
+2021-04-13 15:08:23 keyword_action.py[line:53] INFO 启动浏览器
+2021-04-13 15:08:26 keyword_action.py[line:114] INFO 打开测试地址:http://10.60.44.222:7170/newmbs
+2021-04-13 15:08:32 keyword_action.py[line:159] INFO 柜员：mindy登录成功！
+2021-04-13 15:08:32 Test58_ZiJinJiHua.py[line:39] INFO 开始测试资金计划功能
+2021-04-13 15:08:33 Test58_ZiJinJiHua.py[line:50] INFO 测试基础设置--计划项目
+Traceback (most recent call last):
+  File "E:\ATS\ter_Oracle\Test58_ZiJinJiHua.py", line 65, in test_trade
+    span_click("新增")
+  File "E:\ATS\Action\keyword_action.py", line 230, in span_click
+    click("xpath", path)
+  File "E:\ATS\Action\keyword_action.py", line 224, in click
+    raise e
+  File "E:\ATS\Action\keyword_action.py", line 221, in click
+    element = getElement(driver, locator_method, locator_exp)
+  File "E:\ATS\Action\find.py", line 14, in getElement
+    raise err
+  File "E:\ATS\Action\find.py", line 11, in getElement
+    (lambda x: x.find_element(by=locationType, value = locatorExpression))
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "E:\ATS\Action\find.py", line 11, in <lambda>
+    (lambda x: x.find_element(by=locationType, value = locatorExpression))
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.114)
+
+2021-04-13 15:09:19 Test58_ZiJinJiHua.py[line:362] DEBUG 计划项目失败！Traceback (most recent call last):
+  File "E:\ATS\ter_Oracle\Test58_ZiJinJiHua.py", line 65, in test_trade
+    span_click("新增")
+  File "E:\ATS\Action\keyword_action.py", line 230, in span_click
+    click("xpath", path)
+  File "E:\ATS\Action\keyword_action.py", line 224, in click
+    raise e
+  File "E:\ATS\Action\keyword_action.py", line 221, in click
+    element = getElement(driver, locator_method, locator_exp)
+  File "E:\ATS\Action\find.py", line 14, in getElement
+    raise err
+  File "E:\ATS\Action\find.py", line 11, in getElement
+    (lambda x: x.find_element(by=locationType, value = locatorExpression))
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "E:\ATS\Action\find.py", line 11, in <lambda>
+    (lambda x: x.find_element(by=locationType, value = locatorExpression))
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ASUS\AppData\Local\Programs\Python\Python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.114)
+
+

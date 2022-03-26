@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ufinterface tscode="B005" roottag="voucher" billtype="D5" subtype="run" replace="Y" receiver="DMC0000" sender="TSS" proc="occupy" isexchange="N" filename="" packageid="e5b5d286-8743-4b28-988e-0f59e1af9bfb" account="CRC2">
+    <voucher>
+        <voucher_head>
+            <corp>"ORG"</corp>
+        </voucher_head>
+        <voucher_body>
+            <id paymadedate="2021-01-15">"ID"</id>
+        </voucher_body>
+    </voucher>
+</ufinterface>

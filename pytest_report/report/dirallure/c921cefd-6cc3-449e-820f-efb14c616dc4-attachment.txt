@@ -1,0 +1,4 @@
+2021-04-13 15:05:40 keyword_action.py[line:53] INFO 启动浏览器
+2021-04-13 15:05:41 keyword_action.py[line:114] INFO 打开测试地址:http://10.60.44.222:7170/newmbs
+2021-04-13 15:05:47 keyword_action.py[line:159] INFO 柜员：mindy登录成功！
+2021-04-13 15:05:47 Test58_ZiJinJiHua.py[line:39] INFO 开始测试资金计划功能

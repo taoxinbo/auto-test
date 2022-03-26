@@ -1,0 +1,8 @@
+INFO     root:keyword_action.py:52 启动浏览器
+INFO     root:keyword_action.py:115 打开测试地址:http://10.60.44.222:7170/newmbs
+INFO     root:keyword_action.py:160 柜员：mindy登录成功！
+INFO     root:Test03_JiHuaRenWu.py:42 开始测试计划任务功能
+INFO     root:Test03_JiHuaRenWu.py:57 开始测试系统任务功能
+INFO     root:Test03_JiHuaRenWu.py:288 开始测试当日运行计划功能
+INFO     root:Test03_JiHuaRenWu.py:308 开始测试当日运行计划功能
+INFO     root:Test03_JiHuaRenWu.py:377 计划任务，操作成功!

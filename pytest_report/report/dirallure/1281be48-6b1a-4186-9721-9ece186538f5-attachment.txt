@@ -1,0 +1,8 @@
+2021-02-22 20:50:04 keyword_action.py[line:52] INFO 启动浏览器
+2021-02-22 20:50:09 keyword_action.py[line:115] INFO 打开测试地址:http://10.60.44.222:7170/newmbs
+2021-02-22 20:50:21 keyword_action.py[line:160] INFO 柜员：mindy登录成功！
+2021-02-22 20:50:21 Test03_JiHuaRenWu.py[line:42] INFO 开始测试计划任务功能
+2021-02-22 20:50:24 Test03_JiHuaRenWu.py[line:57] INFO 开始测试系统任务功能
+2021-02-22 20:51:31 Test03_JiHuaRenWu.py[line:288] INFO 开始测试当日运行计划功能
+2021-02-22 20:51:36 Test03_JiHuaRenWu.py[line:308] INFO 开始测试当日运行计划功能
+2021-02-22 20:52:01 Test03_JiHuaRenWu.py[line:377] INFO 计划任务，操作成功!
